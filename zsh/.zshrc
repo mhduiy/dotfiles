@@ -115,3 +115,7 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 source ${HOME}/.alias_bind
+
+PATH=${PATH}:~/npm-global/bin:/home/mhduiy/tools/lua-language-server/bin:/home/mhduiy/tools/ctags/bin
+
+source /home/mhduiy/tools/miniconda/bin/activate
